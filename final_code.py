@@ -19,7 +19,6 @@ text = GUI()
 bart_tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 bart_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/bart-large-cnn")
 
-nlp = en_core_web_sm.load() 
 nlp = spacy.load('en_core_web_sm')
 
 def clean_string(text, stem="Spacy"):

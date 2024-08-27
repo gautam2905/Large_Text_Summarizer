@@ -82,6 +82,3 @@ def GUI():
     # Start the Tkinter event loop
     window.mainloop()
     return article
-
-ar = GUI()
-print(ar)
